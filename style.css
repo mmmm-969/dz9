@@ -1,0 +1,66 @@
+.page1 {
+    width: 1920px;
+    height: 700px;
+    background-color: #EEEFF1;
+}
+
+nav {
+    width: 611px;
+    height: 16px;
+    margin-left: 399px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p {
+    margin-top: 79px;
+    font-family: "Roboto";
+    font-weight: 400;
+    size: 16px;
+    line-height: 26.25px;
+    color: #000000;
+}
+
+.weight500 {
+    font-weight: 500;
+    color: #34547A;
+}
+
+.page1-h1 {
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 78.75px;
+    width: 541px;
+    height: 45px;
+    margin-top: 257px;
+    margin-left: 399px;
+}
+
+.page1-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    size: 16px;
+    line-height: 26.25px;
+    color: #727272;
+    width: 540px;
+    height: 67px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+button {
+    background-color: #34547A;
+    width: 225px;
+    height: 65px;
+    margin-top: 65px;
+    margin-left: 399px;
+    padding: 19px 41px 20px 41px;
+
+    color: #EEEFF1;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.25px;
+}
