@@ -120,3 +120,56 @@ button {
     width: 141px;
     height: 50px;
 }
+
+/* page4 */
+
+.page4 {
+    width: 1920px;
+    height: 1004px;
+    background-color: #EEEFF1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.page4-h2 {
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+}
+
+.page4-text {
+    width: 540px;
+    height: 67px;
+    font-family: "Roboto";
+    font-weight: 400;
+    size: 16px;
+    line-height: 26.25px;
+    color: #727272;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 690px;
+}
+
+.page4-image-content {
+    display: flex;
+}
+
+.page4-img {
+    width: 1100px;
+    height: 600px;
+    margin-top: 57px;
+    margin-left: 405px;
+}
+
+.page4-img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 600px;
+    top: 300px;
+}
