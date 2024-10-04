@@ -96,3 +96,27 @@ button {
     text-align: center;
     margin-top: 50px;
 }
+
+/* page3 */
+
+.page3 {
+    background-color: #34547A;
+    display: flex;
+    width: 1920px;
+    height: 250px;
+    padding-left: 409px;
+    padding-right: 424px;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.page3-item {
+    display: inline;
+    align-content: center;
+}
+
+.image {
+    width: 141px;
+    height: 50px;
+}
