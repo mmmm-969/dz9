@@ -64,3 +64,35 @@ button {
     font-weight: 400;
     line-height: 26.25px;
 }
+
+
+/* page2 */
+
+.page2 {
+    width: 1920px;
+    height: 359px;
+    display: flex;
+    justify-content: center;
+}
+
+.page2-h2 {
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    margin-top: 112px;
+}
+
+.page2-text {
+    width: 540px;
+    height: 67px;
+    font-family: "Roboto";
+    font-weight: 400;
+    size: 16px;
+    line-height: 26.25px;
+    color: #727272;
+    text-align: center;
+    margin-top: 50px;
+}
