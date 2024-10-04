@@ -173,3 +173,35 @@ button {
     right: 600px;
     top: 300px;
 }
+
+/* page5 */
+
+.page5 {
+    width: 1920px;
+    height: 151px;
+    background-color: #34547A;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.page5-h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24.61px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 406px;
+
+}
+
+.page5-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21.33px;
+    color: #FFFFFF;
+    margin-top:20px ;
+    margin-bottom: 50px;
+    margin-left: 406px;
+}
