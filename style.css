@@ -205,3 +205,153 @@ button {
     margin-bottom: 50px;
     margin-left: 406px;
 }
+
+
+@media (min-width: 1200px) {
+    .page1, .page2, .page3, .page4, .page5 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .page1, .page2, .page3, .page4, .page5{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    nav {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .page1-h1, .page1-text, button {
+        margin-left: 10%;
+        width: 80%;
+        
+
+    }
+
+    .page4-img{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        position: relative;
+        z-index: 1;
+    }
+    .page4-img2{
+        width: 60px;
+        height: 60px;
+        position: absolute; 
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    .page4-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .page1, .page2, .page3, .page4, .page5 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    nav p {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .page1-h1, .page1-text, button {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .page1-h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    button {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .page2-h2, .page2-text, .page4-h2, .page4-text, .page5-h3, .page5-text {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+    .page4-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    .page4-img2 {
+        width: 60px;
+        height: 60px;
+        right: 20px;
+        top: 150px;
+        position: absolute; 
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .page1-h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .page1, .page2, .page3, .page4, .page5 {
+        width: 100%;
+        height: auto;
+        padding: 10px;}
+
+    .page4-img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .page4-img2 {
+        display: none; 
+        position: absolute; 
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    
+
+    .page5-h3, .page5-text {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
