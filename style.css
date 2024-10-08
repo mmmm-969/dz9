@@ -347,7 +347,11 @@ button {
         z-index: 2;
     }
 
-    
+    button {
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+    }
 
     .page5-h3, .page5-text {
         width: 90%;
